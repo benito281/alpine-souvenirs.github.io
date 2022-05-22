@@ -1,0 +1,37 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+html,
+body,
+.view {
+  height: 100%;
+}
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%;
+}
+.carousel .carousel-inner {
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100%;
+}
+.title-navbar{
+  font-family: 'Playfair Display', serif;
+}
+.card-img-top{
+  width: 372px;
+  height: 431px;
+}
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%;
+  }
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929fba;
+}

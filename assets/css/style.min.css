@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+.view,
+body,
+html {
+  height: 100%;
+}
+.title-navbar {
+    font-family: 'Playfair Display', serif;
+}
+.carousel {
+  height: 50%;
+}
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+html,
+body,
+header,
+.carousel {
+  height: 60vh;
+}
+/* .card-img-top{
+  max-width: 100%;
+  max-height: 100%;
+}
+ */
+
+.img-card{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  
+}
+/* .card-img-top{
+  width: 300px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+} */
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .carousel {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .carousel {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%;
+  }
+}
+.page-footer {
+  background-color: #929fba;
+}
